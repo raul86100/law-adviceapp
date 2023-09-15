@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loginpage{
+    background-image: url('../../images/backgrounddesign.jpg');
+    background-position: 66% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    gap:22%;
+}
+.login-border{
+
+background-color: whitesmoke;
+opacity: 0.8;
+border-radius: 10%;
+padding-bottom: 1rem;
+box-shadow: 0 4px 11px 0 rgba(146, 96, 0, 0.35);
+position: relative;
+}
+.login-division{
+   padding-top: 8%;
+}
+.login-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:30px;
+    align-items: center;
+    padding-top:1%;
+    padding-bottom: 1%;
+    width: 30rem;
+}
+input[type="text"],input[type="password"]{
+    
+    border: none;
+    font-family: Montserrat, sans-serif;
+    border-radius: 5px;
+    height: 2rem;
+   letter-spacing: 2px;
+   box-shadow: 0 4px 11px 0 rgba(146, 96, 0, 0.35);
+    text-align: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+
+}
+input[type="submit"], .btn{
+    border: none;
+    font-family: Montserrat, sans-serif;
+    border-radius:16px;
+    width:100%;
+    font-weight: 300;
+    font-size: medium;
+    text-align: center;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:2px solid black;
+    
+}
+input[type="submit"]:hover,.btn:hover{
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+}
+button{
+    border: none;
+    font-family: Montserrat, sans-serif;
+    border-radius: 5px;
+    padding:0.5rem;
+}
+
+

@@ -1,0 +1,11 @@
+.fullscreen{
+    width: 100%;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(0,20,49,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+.client-body{
+   
+   }
