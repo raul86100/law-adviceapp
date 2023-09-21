@@ -4,12 +4,9 @@
 }
 
 .loginpage{
-    background-image: url('../../images/backgrounddesign.jpg');
-    background-position: 66% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   
     display: flex;
-    gap:22%;
+    
 }
 .login-border{
 
@@ -18,10 +15,20 @@ opacity: 0.8;
 border-radius: 10%;
 padding-bottom: 1rem;
 box-shadow: 0 4px 11px 0 rgba(146, 96, 0, 0.35);
-position: relative;
+position:relative;
+margin-left:32%;
+margin-right:29%;
 }
 .login-division{
    padding-top: 8%;
+   
+   background-image: url('../../images/backgrounddesign.jpg');
+   background-position: 65% 50%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   width:100%;
+   display: flex;
+   flex-direction: column;
 }
 .login-content{
     display: flex;
@@ -39,11 +46,11 @@ input[type="text"],input[type="password"]{
     font-family: Montserrat, sans-serif;
     border-radius: 5px;
     height: 2rem;
+    width:100%;
    letter-spacing: 2px;
    box-shadow: 0 4px 11px 0 rgba(146, 96, 0, 0.35);
     text-align: center;
-    padding-right: 3rem;
-    padding-left: 3rem;
+    
 
 }
 input[type="submit"], .btn{
@@ -71,11 +78,6 @@ input[type="submit"]:hover,.btn:hover{
     justify-content: center;
     gap:10rem;
 }
-button{
-    border: none;
-    font-family: Montserrat, sans-serif;
-    border-radius: 5px;
-    padding:0.5rem;
-}
+
 
 

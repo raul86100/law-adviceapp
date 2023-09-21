@@ -3,9 +3,7 @@
     width:20%;
 }
 .slideimg{
-    height: 87vh;
+    height:100%;
     width:100%;
-}
-img{
     border-radius: 0% 30% 0% 0%;
 }

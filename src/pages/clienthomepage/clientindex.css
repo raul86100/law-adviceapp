@@ -1,0 +1,38 @@
+
+.index-fullscreen{
+    width: 100%;
+    padding-top:7% ;
+   padding-left: 3%;
+   padding-right: 3%; 
+}
+.clientindex-topcontent{
+   display: flex;
+   
+}
+
+.compliant-flex{
+    width: 100%;
+    display: flex;
+}
+.compliant-field{
+    width:100%;
+}
+.feild-selection{
+    border: none;
+    font-family: Montserrat, sans-serif;
+    border-radius:5%;
+    height: 2rem;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 11px 0 rgba(146, 96, 0, 0.35);
+    text-align: center;
+}
+.client-search-btn{
+
+border: none;
+font-family: Montserrat, sans-serif;
+border-radius:5%;
+width:100%;
+height: 2rem;
+padding-left: 1%;
+padding-right:1%;
+}
