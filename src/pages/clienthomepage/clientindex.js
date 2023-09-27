@@ -1,5 +1,6 @@
 import React from 'react'
 import './clientindex.css';
+import Fetchtable from '../../compontent/Fetchtable/Fetchtable';
 
 function Clientindex() {
     const call=()=>{
@@ -19,6 +20,7 @@ function Clientindex() {
         <div><button className='client-search-btn'>Search</button></div> </div>
      
       </div>
+      <Fetchtable />
     </div>
   )
 }

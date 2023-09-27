@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     gap:15%;
+    animation: sp 1s ease-out;
 }
 .first-inner{
 width:100%;
@@ -32,10 +33,21 @@ flex-direction: column;
 gap:40px;
 padding-left: 1%;
 padding-right: 4%;
-padding-top: 1%;;
+padding-top: 1%;
+
 
 }
-td{
+@keyframes sp {
+    from {
+        transform: translateX(100%);
+        opacity: 0.6;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+}
+.profile-table td, .accounttype td{
     padding-bottom: 10%;
 }
 .input{
@@ -45,6 +57,7 @@ td{
     display:flex;
     flex-direction: column;
     gap:7rem;
+    animation: sp 2s ease-out;
 }
 .accounttype{
     background: rgb(34,193,195);

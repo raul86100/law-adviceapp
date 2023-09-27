@@ -5,11 +5,19 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
 }
-.navigation-side{
+.navigation-side-max{
     background-color:#12101dff;
     height: 100vh;
     width: 15%;
     opacity: 0.9;
+    transition: width 0.9s ease;
+}
+.navigation-side-min{
+    background-color:#12101dff;
+    height: 100vh;
+    width: 5%;
+    opacity: 0.9;
+    transition: width 0.9s ease;
 }
 
 .navigation-item{
@@ -39,6 +47,7 @@ width: 90%;
     color: white;
     opacity: 0.9;
     font-weight: 700;
+    width:100%;
 }
 
 .item:hover, .item:focus{

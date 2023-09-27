@@ -1,16 +1,14 @@
 .header{
     display: flex;
     justify-content: center;
-    gap:62rem;
-    padding-left: 0.5rem;
+    gap:70%;
 }
 .header-content{
     display: flex;
     justify-content:flex-end;
-    gap:40px;
-    padding-top: 2rem;
-    
-    padding-bottom: 1rem;
+    gap:20%;
+    padding-top:2.5%;
+   
 }
 .link{
     text-decoration: none;

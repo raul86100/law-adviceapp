@@ -1,0 +1,7 @@
+.fetch-table{
+    height: 100vh;
+   overflow-y: scroll;
+}
+.fetch-table::-webkit-scrollbar{
+    display: none;
+}

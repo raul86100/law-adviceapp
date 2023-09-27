@@ -5,12 +5,17 @@ function About() {
     
   return (
     <div className='aboutpage'>
-      <div className='wholepage'>
+      <div className='whole-div-about'>
         <div className='first-div'>
           <h1>"Law Adverse, Justice Our Traverse"</h1>
         </div>
-        <h2>content</h2>
-        </div>
+    <div className='img-div'><img  src="https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_640.jpg"/></div>
+    <div className='img-div'><img  src="https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_640.jpg"/></div>
+
+   
+
+
+    </div>   
     </div>
   )
 }

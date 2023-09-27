@@ -1,6 +1,22 @@
+
+.whole-div-about{
+    
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    position: relative;
+    height:100vh;
+   
+}
+.whole-div-about::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
 .first-div{
 background-image: url('https://cdn.modao.cc/Mockitt8.0/%E7%B4%A0%E5%B9%BFbanner%20%281%29.png');
-height:80vh;
+
 color: aliceblue;
 font-style: italic
 }
