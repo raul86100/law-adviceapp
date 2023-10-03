@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
 import './Login.css';
 import Slideimg from '../../compontent/slide/slide';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate , Navigate} from 'react-router-dom';
+
 function Login() {
   const [email,setEmail]=useState("");
   const [password,setPassword]=useState("");
 
   const navigate=useNavigate();
+  const signup=()=>{
+    navigate("/register");
+  }
   function signin(){
     const data={
       'name':email,
@@ -35,7 +39,7 @@ function Login() {
             </div>
             </form>
             <div className='bottom'><div><button className='btn'>Forgetpassword</button></div>
-            <div><button className='btn'>Signup</button></div></div>
+            <div><button className='btn' onClick={signup}>Signup</button></div></div>
         </div>
         </div>
         

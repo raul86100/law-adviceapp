@@ -40,7 +40,7 @@ margin-right:29%;
     padding-bottom: 1%;
     width: 30rem;
 }
-input[type="text"],input[type="password"]{
+.login-content input[type="text"], .login-content input[type="password"]{
     
     border: none;
     font-family: Montserrat, sans-serif;
@@ -50,7 +50,7 @@ input[type="text"],input[type="password"]{
    letter-spacing: 2px;
    box-shadow: 0 4px 11px 0 rgba(146, 96, 0, 0.35);
     text-align: center;
-    
+    outline: none;
 
 }
 input[type="submit"], .btn{

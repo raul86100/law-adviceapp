@@ -17,6 +17,19 @@
 }
 .compliant-field{
     width:100%;
+
+}
+.compliant-field input{
+    width: 100%;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    
+    height: 2rem;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 11px 0 rgba(146, 96, 0, 0.35);
+}
+.compliant-field input::placeholder{
+    text-align: center;
 }
 .feild-selection{
     border: none;

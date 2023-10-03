@@ -26,8 +26,17 @@
     color:white;
     background-color: black;
 }
-.link:focus{
+.active{
     background-color:#fabc47;
     color:black;
     border: none;
+    /* height:2rem; */
+    border-radius:1rem;
+    text-decoration: none;
+    text-align: center;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight:700;
 }
