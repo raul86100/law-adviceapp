@@ -28,6 +28,7 @@ function Login() {
     <div className='loginpage'>
      
      <Slideimg />
+     <div className='login-division-outer'>
       <div className='login-division'>
         <div className='login-border'>
             <form onSubmit={signin}>
@@ -42,7 +43,7 @@ function Login() {
             <div><button className='btn' onClick={signup}>Signup</button></div></div>
         </div>
         </div>
-        
+        </div>  
     </div>
   )
 }

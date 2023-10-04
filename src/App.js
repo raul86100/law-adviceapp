@@ -1,13 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
-import Home from './pages/homepage/home';
-import Clienthome from './pages/clientpage/clienthome';
+import Home from './pages/clientpages/homepage/home';
+import Clienthome from './pages/clientpages/clientpage/clienthome';
 import { Routes,Route} from "react-router-dom";
 import Login from './pages/Login/Login';
 import About from './pages/about/about';
-import Clientindex from './pages/clienthomepage/clientindex';
-import Clientprofile from './pages/clientprofilepage/clientprofile';
-import Clientbookinghistory from './pages/clienthistoryofbooking/clientbookinghistory';
+import Clientindex from './pages/clientpages/clienthomepage/clientindex';
+import Clientprofile from './pages/clientpages/clientprofilepage/clientprofile';
+import Clientbookinghistory from './pages/clientpages/clienthistoryofbooking/clientbookinghistory';
 import Register from './pages/Registraation page/Register';
 
 
